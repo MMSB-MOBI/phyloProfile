@@ -1,4 +1,9 @@
 def score_matrix_builder(score_file_dir):
+    '''
+    Get:
+        Path to the score directory
+    Build a dataframe of score phylogenetic matrix
+    '''
     path = score_file_dir
     dico_prot={}
     for file in os.listdir(path):
